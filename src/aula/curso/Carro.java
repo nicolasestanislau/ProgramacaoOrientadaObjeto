@@ -14,13 +14,19 @@ public class Carro {
     }
 
     public void frear() {
-        System.out.println(" Freando ... ");
-        velocidade = velocidade - 10;
+        velocidade = velocidade - 20;
+        System.out.println(" Freando ..." + velocidade);
+
     }
 
     public void re() {
         System.out.println("colocando em marcha re...");
         velocidade = --velocidade;
+    }
+
+    public int espacoLivre() {
+        System.out.println("chegou aqui..");
+        return this.ano;
     }
 
 }

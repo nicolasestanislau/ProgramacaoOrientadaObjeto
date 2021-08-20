@@ -34,9 +34,11 @@ public class Instanciar {
         carro1.marca = "Fiat";
         carro1.modelo = "Fiat Uno";
         carro1.ano = 2018;
+        carro1.velocidade = 200;
         carro1.acelerar();
         carro1.frear();
         carro1.re();
+        carro1.espacoLivre();
 
         carro2.autonomia = 258.8f;
         carro2.maxKmHora = 130;

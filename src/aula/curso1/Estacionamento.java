@@ -13,8 +13,8 @@ public class Estacionamento {
         Porta po = new Porta();
         c1.porta1 = po;
 
-        Motor m1 = new Motor();
-        c1.m1 = m;
+//        Motor m1 = new Motor();
+//        c1.m1 = m;
 
     }
 }

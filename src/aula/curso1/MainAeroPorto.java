@@ -10,8 +10,10 @@ public class MainAeroPorto{
         piloto1.ferias = true;
         piloto1.salario = 12500.0f;
 
-        System.out.printf("Piloto: \n" + "nome - " + piloto1.nome+'\n'
-                + "idade - " + piloto1.idade +'\n' + "peso - " + piloto1.peso + '\n'
+        System.out.printf(
+                "Piloto: \n" + "nome - " + piloto1.nome+'\n'
+                + "idade - " + piloto1.idade +'\n'
+                + "peso - " + piloto1.peso + '\n'
                 + "salario - " + "R$" + "%7.2f" ,piloto1.salario);
         if(piloto1.ferias){
             System.out.println("\npiloto esta de ferias");
@@ -22,8 +24,10 @@ public class MainAeroPorto{
         Passageiro passegeiroMain = new Passageiro("Karine", 26, 58.8 );
         passegeiroMain.bagagemDeMao = false;
         passegeiroMain.passagem = "19238";
-        System.out.println("Passageiro: \n" + "nome - " + passegeiroMain.nome+'\n'
-                + "idade - " + passegeiroMain.idade +'\n' + "peso - " + passegeiroMain.peso + '\n'
+        System.out.println(
+                "Passageiro: \n" + "nome - " + passegeiroMain.nome+'\n'
+                + "idade - " + passegeiroMain.idade +'\n'
+                + "peso - " + passegeiroMain.peso + '\n'
                 + "numero de passagem - " +passegeiroMain.passagem);
         if(passegeiroMain.bagagemDeMao) {
             System.out.println("tem bagagem de mão");

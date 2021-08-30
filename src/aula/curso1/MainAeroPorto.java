@@ -10,11 +10,11 @@ public class MainAeroPorto{
         piloto1.ferias = true;
         piloto1.salario = 12500.0f;
 
-        System.out.println("Piloto: \n" + "nome - " + piloto1.nome+'\n'
+        System.out.printf("Piloto: \n" + "nome - " + piloto1.nome+'\n'
                 + "idade - " + piloto1.idade +'\n' + "peso - " + piloto1.peso + '\n'
-                + "salario - " + "R$"+ piloto1.salario);
+                + "salario - " + "R$" + "%7.2f" ,piloto1.salario);
         if(piloto1.ferias){
-            System.out.println("piloto esta de ferias");
+            System.out.println("\npiloto esta de ferias");
         }else {
             System.out.println("piloto não esta de ferias");
         }

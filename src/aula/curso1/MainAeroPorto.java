@@ -16,7 +16,7 @@ public class MainAeroPorto{
         if(piloto1.ferias){
             System.out.println("\npiloto esta de ferias");
         }else {
-            System.out.println("piloto não esta de ferias");
+            System.out.println("\npiloto não esta de ferias");
         }
 
         Passageiro passegeiroMain = new Passageiro("Karine", 26, 58.8 );

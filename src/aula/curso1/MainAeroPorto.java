@@ -9,8 +9,15 @@ public class MainAeroPorto{
         Piloto piloto1 = new Piloto("Antonio", 43, 90.0 );
         piloto1.ferias = true;
         piloto1.salario = 12500.0f;
+
         System.out.println("Piloto: \n" + "nome - " + piloto1.nome+'\n'
-                + "idade - " + piloto1.idade +'\n' + "peso - " + piloto1.peso);
+                + "idade - " + piloto1.idade +'\n' + "peso - " + piloto1.peso + '\n'
+                + "salario - " + "R$"+ piloto1.salario);
+        if(piloto1.ferias){
+            System.out.println("piloto esta de ferias");
+        }else {
+            System.out.println("piloto não esta de ferias");
+        }
 
         Passageiro passegeiroMain = new Passageiro("Karine", 26, 58.8 );
         passegeiroMain.bagagemDeMao = false;

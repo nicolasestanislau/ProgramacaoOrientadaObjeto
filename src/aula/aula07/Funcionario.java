@@ -1,12 +1,12 @@
 package aula.aula07;
 
 public class Funcionario {
-    String nome;
-    double salario;
+    public String nome;
+    public double salario;
     double bonus;
     double descontos;
 
-    Funcionario(String nome, double salario, double bonus, double descontos) {
+    public Funcionario(String nome, double salario, double bonus, double descontos) {
         this.nome = nome;
         this.salario = salario;
         this.bonus = bonus;
